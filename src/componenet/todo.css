@@ -1,0 +1,82 @@
+
+.main-div{
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    background-image: url(https://th.bing.com/th/id/OIP.PMNEmeBz0g-87QqsteG8kAHaEo?pid=ImgDet&rs=1);    
+}
+.child-div{
+    margin: 43px;
+    background-color: rgb(219, 225, 223);
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    height: 50%;
+}
+figcaption{
+    font-size: 40px;
+    font-weight: bold;
+}
+.additem input{
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.plus{
+    background-color: antiquewhite;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.plus:hover{
+    background-color: brown;
+
+}
+.showitem{
+    width: 100%; 
+    height: 15rem; 
+    text-align: center;
+}
+.eachitem{
+    width:100% ;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+}
+.eachitem h1{
+    background-color: white;
+    width: 55%;
+    border-radius: 5px;
+}
+.todo_btn{
+    background-color: brown;
+    margin-left: 5px;
+    width: 20px;
+    margin-top: 12px;
+    height: 20px;
+    border-radius: 5px;
+}
+.button{
+    padding: 5px;
+}
+.button:hover{
+    background-color: white;
+    border-radius: 5px;
+}
+.showitems{
+    padding-bottom: 10px;
+}
+.btn_effect{
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.btn_effect:hover{
+    background-color: brown;
+}
